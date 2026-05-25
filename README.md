@@ -37,7 +37,7 @@ Reference protein:
 ```bash
 ├── PF00069.alignment.seed
 ├── PF00069_seed.fasta
-├── project4.py
+├── Project_4_AB.py
 ├── entropy_plot.png
 ├── entropy_annotated.png
 ├── mi_heatmap.png
