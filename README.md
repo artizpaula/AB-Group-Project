@@ -51,11 +51,6 @@ Reference protein:
 ## Conservation Analysis
 
 Conservation is measured using Shannon entropy:
-
-\[
-H(X) = -\sum_i p_i \log_2(p_i)
-\]
-
 - Low entropy → conserved positions
 - High entropy → variable positions
 
@@ -63,12 +58,7 @@ H(X) = -\sum_i p_i \log_2(p_i)
 
 ## Coevolution Analysis
 
-Residue coevolution is computed using Mutual Information:
-
-\[
-MI(X,Y)=\sum_{a,b} p(a,b)\log_2\left(\frac{p(a,b)}{p(a)p(b)}\right)
-\]
-
+Residue coevolution is computed using Mutual Information.
 APC correction is applied to reduce background noise.
 
 ---
@@ -95,22 +85,6 @@ Top coevolving pairs were identified using APC-corrected MI scores.
 - Matplotlib
 - Biopython
 - Requests
-
----
-
-# Usage
-
-Install dependencies:
-
-```bash
-pip install biopython numpy matplotlib requests
-```
-
-Run the analysis:
-
-```bash
-python project4.py
-```
 
 ---
 
